@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/user")
 public class UserController {
     @Autowired
-    private UserInfoService userInfoService;
+    private UserInfoService userInfoService ;
 
     @RequestMapping("/showInfo/{userId}")
     public String showUserInfo(ModelMap modelMap, @PathVariable int userId) {
