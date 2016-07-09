@@ -21,6 +21,6 @@ public class UserController {
     public String showUserInfo(ModelMap modelMap, @PathVariable int userId) {
         UserInfo userInfo = userInfoService.getUserById(userId);
         modelMap.addAttribute("userInfo", userInfo);
-        return "/user/showInfo";
+        return "/user/showInfo" ;
     }
 }
