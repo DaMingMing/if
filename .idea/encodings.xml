@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/kira-domain" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kira-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kira-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kira-web" charset="UTF-8" />
   </component>
 </project>

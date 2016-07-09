@@ -31,12 +31,5 @@ public class UserInfo {
         this.number = number;
     }
 
-    @Override
-    public String toString() {
-        return "UserInfo{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", number=" + number +
-                '}';
-    }
+
 }

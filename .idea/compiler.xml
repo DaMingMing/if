@@ -22,12 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="kira-app" />
         <module name="kira-common" />
         <module name="kira-dao" />
         <module name="kira-domain" />
         <module name="kira-service" />
         <module name="kira-utils" />
+        <module name="kira-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +38,7 @@
       <module name="kira-domain" target="1.5" />
       <module name="kira-service" target="1.5" />
       <module name="kira-utils" target="1.5" />
+      <module name="kira-web" target="1.6" />
       <module name="KiraProject" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -9,12 +9,12 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>kira-app</module>
         <module>kira-service</module>
         <module>kira-utils</module>
         <module>kira-dao</module>
         <module>kira-common</module>
         <module>kira-domain</module>
+        <module>kira-web</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
