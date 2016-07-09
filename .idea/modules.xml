@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Kira.iml" filepath="$PROJECT_DIR$/Kira.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kira-app/kira-app.iml" filepath="$PROJECT_DIR$/kira-app/kira-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kira-common/kira-common.iml" filepath="$PROJECT_DIR$/kira-common/kira-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kira-dao/kira-dao.iml" filepath="$PROJECT_DIR$/kira-dao/kira-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kira-domain/kira-domain.iml" filepath="$PROJECT_DIR$/kira-domain/kira-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kira-service/kira-service.iml" filepath="$PROJECT_DIR$/kira-service/kira-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kira-utils/kira-utils.iml" filepath="$PROJECT_DIR$/kira-utils/kira-utils.iml" />
+    </modules>
+  </component>
+</project>
