@@ -68,4 +68,8 @@
       number = #{number,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <select id="checkLoginUserInfo" parameterType="com.kira.domain.UserInfo" resultType="java.lang.Integer">
+    select count(1) from kira_userinfo where name = #username# and password = #password#
+
+  </select>
 </mapper>
