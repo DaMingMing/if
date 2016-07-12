@@ -1,6 +1,7 @@
 package com.kira.domain;
 import com.kira.domain.SexEnum;
 
+
 import java.io.Serializable;
 
 public class UserInfo implements Serializable{
