@@ -3,8 +3,8 @@
 <mapper namespace="com.kira.dao.UserInfoMapper" >
   <resultMap id="BaseResultMap" type="com.kira.domain.UserInfo" >
     <id column="id" property="id" jdbcType="INTEGER" />
-    <result column="name" property="username" jdbcType="VARCHAR" />
-    <!--<result column="number" property="number" jdbcType="INTEGER" />-->
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Base_Column_List" >
     id, name, number
@@ -69,7 +69,9 @@
     where id = #{id,jdbcType=INTEGER}
   </update>
   <select id="checkLoginUserInfo" parameterType="com.kira.domain.UserInfo" resultType="java.lang.Integer">
-    select count(1) from kira_userinfo where name = #username# and password = #password#
-
+    select count(1) from kira_userinfo where name = #{username} and password = #{password}
+  </select>
+  <select id="getUserInfoByUsername" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select username,password from kira_userinfo where username = #{username,jdbcType=VARCHAR}
   </select>
 </mapper>

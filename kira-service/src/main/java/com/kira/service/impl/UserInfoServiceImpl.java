@@ -23,4 +23,8 @@ public class UserInfoServiceImpl implements UserInfoService{
         System.out.print(i);
         return i;
     }
+
+    public UserInfo getUserInfoByUsername(String username) {
+        return userInfoMapper.getUserInfoByUsername(username);
+    }
 }

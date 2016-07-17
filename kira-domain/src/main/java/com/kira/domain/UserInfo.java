@@ -1,10 +1,11 @@
 package com.kira.domain;
+
 import com.kira.domain.SexEnum;
 
 
 import java.io.Serializable;
 
-public class UserInfo implements Serializable{
+public class UserInfo implements Serializable {
     private static final long serialVersionUID = -4802112918807753650L;
     /**
      * 自增id
@@ -13,21 +14,21 @@ public class UserInfo implements Serializable{
     /**
      * 登陆账号
      */
-    private String username;
+    private String username = "";
     /**
-     *密码
+     * 密码
      */
-    private String password;
+    private String password = "";
     /**
      * 验证码
      */
-    private String verificationCode;
+    private String verifyCode;
     /**
      * 移动电话
      */
     private String phoneNumber;
     /**
-     *性别
+     * 性别
      */
     private int sex = SexEnum.MALE.key;
     /**
@@ -37,7 +38,7 @@ public class UserInfo implements Serializable{
     /**
      * 邮箱
      */
-    private  String email;
+    private String email;
     /**
      * 生肖
      */
@@ -71,12 +72,12 @@ public class UserInfo implements Serializable{
         this.password = password;
     }
 
-    public String getVerificationCode() {
-        return verificationCode;
+    public String getVerifyCode() {
+        return verifyCode;
     }
 
-    public void setVerificationCode(String verificationCode) {
-        this.verificationCode = verificationCode;
+    public void setVerifyCode(String verifyCode) {
+        this.verifyCode = verifyCode;
     }
 
     public String getPhoneNumber() {
@@ -133,7 +134,7 @@ public class UserInfo implements Serializable{
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                ", verificationCode='" + verificationCode + '\'' +
+                ", verifyCode='" + verifyCode + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", sex=" + sex +
                 ", birthday='" + birthday + '\'' +

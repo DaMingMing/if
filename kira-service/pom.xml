@@ -11,6 +11,7 @@
 
     <artifactId>kira-service</artifactId>
     <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -30,11 +31,6 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.kira</groupId>
-            <artifactId>kira-domain</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
         <!-- spring -->
         <dependency>
@@ -81,7 +77,18 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
     </dependencies>
 
 

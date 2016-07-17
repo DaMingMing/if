@@ -11,6 +11,7 @@
 
     <artifactId>kira-dao</artifactId>
     <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>com.kira</groupId>

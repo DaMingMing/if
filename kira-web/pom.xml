@@ -9,6 +9,7 @@
     <artifactId>kira-web</artifactId>
     <packaging>war</packaging>
     <name>kira-web</name>
+    <version>1.0-SNAPSHOT</version>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -71,6 +72,10 @@
             <!--<artifactId>shiro-ehcache</artifactId>-->
         <!--</dependency>-->
         <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-web</artifactId>
         </dependency>
@@ -122,6 +127,10 @@
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kira</groupId>
+            <artifactId>kira-utils</artifactId>
         </dependency>
     </dependencies>
     <build>

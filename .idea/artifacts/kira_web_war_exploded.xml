@@ -29,16 +29,17 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:3.0-alpha-1" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-core:1.2.3" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.1.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-core:1.2.3" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.4" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-web:1.2.3" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring:1.2.3" />
-          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:3.0-alpha-1" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" />
@@ -48,6 +49,9 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.0" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.2" />
+          <element id="archive" name="kira-utils-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="kira-utils" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">
